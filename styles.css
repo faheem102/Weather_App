@@ -1,0 +1,80 @@
+#container {
+    background-image: url("https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f4/b4/b7/f4b4b705-ede1-d50b-7f5e-6590b563529b/source/512x512bb.jpg");
+    border-radius: 10px;
+    font-family: 'Noto Sans Display', sans-serif;
+    width: 35%;
+    height: 65%;
+    margin: auto;
+
+}
+
+.top-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.location {
+    background-color: #004d99;
+    color: azure;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    ;
+}
+
+.top-container {
+    text-align: center;
+
+}
+
+.heading {
+    padding-top: 15px;
+    font-style: bold;
+    font-weight: 600;
+
+}
+
+.temp-para {
+    font-style: bold;
+    font-weight: 400;
+}
+
+.feels-like {
+    font-style: bold;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9900cc;
+}
+
+.bottom-container {
+    background-color: white;
+    margin: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.sections {
+    flex: 1;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+h4 {
+    font-style: bold;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #cc0099;
+}
+
+.wind-col,
+.weather-col,
+.sunrise-col,
+.sunset-col {
+    color: #004d99;
+}
+
